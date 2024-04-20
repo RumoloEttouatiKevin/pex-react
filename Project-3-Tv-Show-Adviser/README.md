@@ -111,3 +111,36 @@ export function Toto() {
   )
 }
 ```
+
+## Strict Mode
+
+C'est un composant qui va agir uniquement en environnement de dev, la petite particularité est que ça va lancer deux fois les useEffect au démarrage d'un composant, ce mode est principalement là pour détecter les éventuels bugs et comportements obsolètes de l'application.
+
+Le StrictMode peut être activé pour toute l'application ou pour une petite partie seulement.
+
+```js
+// À la racine `index.js`
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+
+// À une partie ciblée
+function App() {
+  return (
+    <>
+      <Header />
+      <StrictMode>
+        <main>
+          <Sidebar />
+          <Content />
+        </main>
+      </StrictMode>
+      <Footer />
+    </>
+  );
+}
+```
+
+Lire la documentation à ce sujet : [StrictMode](https://react.dev/reference/react/StrictMode#strictmode)
