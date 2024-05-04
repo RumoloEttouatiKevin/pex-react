@@ -6,4 +6,5 @@
 - [Projet 4 - Introduction à Redux](./Project-4-Redux-Introduction/README.md)
 - [Projet 5 - React Router - Gestionnaire de note](./Project-5-React-Router-Note-Manager/README.md)
 - [Projet 6 - Hooks customs](./Project-6-Customs-Hooks/README.md)
-- [Projet 7 - Concepts avancés](./Project-7-Advanced-Concepts-1/README.md)
+- [Projet 7 - Concepts avancés 1](./Project-7-Advanced-Concepts-1/README.md)
+- [Projet 8 - Concepts avancés 2](./Project-8-Advanced-Concepts-2/README.md)
